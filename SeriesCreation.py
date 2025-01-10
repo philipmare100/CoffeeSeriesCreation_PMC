@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+import sys
+sys.path.append('/opt/anaconda3/envs/myenvtest/lib/python3.10/site-packages')
 from coffee.client import JsonApiClient
 from coffee.workflows import SeriesWorkflow
 
